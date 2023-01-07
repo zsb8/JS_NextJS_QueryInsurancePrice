@@ -9,7 +9,7 @@ export default async (req, res) => {
         await Promise.all(
           symbol.map(async (value, i) => {
             const url = new URL(
-              `http://ItIsPrivacy.compute.amazonaws.com:8000/v1/jf/canadian_abroad/`
+              `http://ItIsPrivacy.amazonaws.com:ItIsPrivacy/v1/jf/canadian_abroad/`
             );
             const response = await fetch(url, {
               method: "POST",
