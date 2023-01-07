@@ -25,7 +25,7 @@ export default function Home() {
       expiry_date: expirydate,
       birthday: birthday,
     };
-    const response = await fetch("/api/finhub", {
+    const response = await fetch("/api/aws", {
       method: "POST",
       body: JSON.stringify(body),
       headers: {
