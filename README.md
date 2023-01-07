@@ -1,3 +1,6 @@
+**These sample codes will show  you my expertise. They do not contain any confidential information.**     
+
+
 # Next_query_insurance_price
 query insurance price using my API which is running on AWS
 
